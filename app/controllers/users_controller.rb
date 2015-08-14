@@ -19,11 +19,11 @@ class UsersController < ApplicationController
         # If user doesnt exist, make them, and attach referrer
         if @user.nil?
 
-            cur_ip = IpAddress.find_by_address(request.env['HTTP_X_FORWARDED_FOR'])
+            cur_ip = IpAddress.find_by_address(request.env['REMOTE_ADDR'])
 
             if !cur_ip
                 cur_ip = IpAddress.create(
-                    :address => request.env['HTTP_X_FORWARDED_FOR'],
+                    :address => request.env['REMOTE_ADDR'],
                     :count => 0
                 )
             end

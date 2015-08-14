@@ -7,6 +7,8 @@ development:
   adapter: postgresql
   database: prelaunchr
   host: localhost
+  username: foobar
+  password: foobarpass
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -15,8 +17,12 @@ test:
   adapter: postgresql
   database: prelaunchr
   host: localhost
+  username: foobar
+  password: foobarpass
 
 production:
   adapter: postgresql
   database: prelaunchr
   host: localhost
+  username: foobar
+  password: foobarpass
