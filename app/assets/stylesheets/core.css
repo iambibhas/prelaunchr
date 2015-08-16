@@ -57,7 +57,7 @@ html.home{
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #FFF;
+	color: #7ad3ab;
 	text-transform: uppercase;
 	margin: 85px 0 0 136px;
 	position: relative;
@@ -365,11 +365,13 @@ html.home{
 #refer .share-wrap .copy-link{
 	border: 1px solid #D1D0C7;
 	background: #FFF;
-	padding: 10px 0;
+	padding: 10px 20px;
 	width: 320px;
 	text-transform: none;
-	font-size: 11px;
+	font-size: 12px;
 	margin: 20px auto 0;
+    text-align: center;
+    font-family: monospace;
 }
 
 #refer .share-wrap .social-links{

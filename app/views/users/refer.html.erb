@@ -13,7 +13,7 @@
             <p class="why brandon">Don't leave your friends behind</p>
             <p class="title brandon">INVITE FRIENDS &<br>Get Early Discount</p>
             <p class="subtitle brandon">Share your unique link via email, Facebook or Twitter and earn early discount for each friend who signs up.</p>
-            <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
+            <input id="copy-link" class="copy-link brandon" onclick="document.getElementById('copy-link').select();" value="<%= root_url %>?ref=<%= @user.referral_code %>" />
             <% twitter_message = "Excited for @garagelyin to launch. I’m getting a discount for my car service." %>
             <div class="social-links">
                 <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Garagely" class="fb" target="_blank"></a>
@@ -82,6 +82,5 @@
         <p class="check brandon">Keep checking</p>
 
         <p class="ship brandon">We operate in Delhi and NCR.</p>
-        <a class="policy brandon" href="/privacy-policy" target="_blank">Privacy Policy</a>
     </div>
 </div>
