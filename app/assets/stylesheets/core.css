@@ -375,7 +375,6 @@ html.home{
 }
 
 #refer .share-wrap .social-links{
-	width: 120px;
 	height: 37px;
 	margin: 25px auto 0;
 	text-align: center;
@@ -393,7 +392,28 @@ html.home{
 }
 
 #refer .share-wrap .social-links .twit{
-	background: url(/assets/refer/twit.png);
+    background: url(/assets/refer/twit.png);
+    background-size: 27px 27px;
+    width: 27px;
+    height: 27px;
+}
+
+#refer .share-wrap .social-links .gmail{
+    background: url(/assets/refer/gmail.png);
+    background-size: 27px 27px;
+    width: 27px;
+    height: 27px;
+}
+
+#refer .share-wrap .social-links .yahoo{
+    background: url(/assets/refer/yahoo.png);
+    background-size: 27px 27px;
+    width: 27px;
+    height: 27px;
+}
+
+#refer .share-wrap .social-links .hotmail{
+	background: url(/assets/refer/hotmail.png);
 	background-size: 27px 27px;
 	width: 27px;
 	height: 27px;
@@ -657,8 +677,23 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-size: 27px 27px;
 	}
 
-	#refer .share-wrap .social-links .twit{
-		background: url(/assets/refer/twit@2x.png);
+    #refer .share-wrap .social-links .twit{
+        background: url(/assets/refer/twit@2x.png);
+        background-size: 27px 27px;
+    }
+
+    #refer .share-wrap .social-links .gmail{
+        background: url(/assets/refer/gmail@2x.png);
+        background-size: 27px 27px;
+    }
+
+    #refer .share-wrap .social-links .yahoo{
+        background: url(/assets/refer/yahoo@2x.png);
+        background-size: 27px 27px;
+    }
+
+	#refer .share-wrap .social-links .hotmail{
+		background: url(/assets/refer/hotmail@2x.png);
 		background-size: 27px 27px;
 	}
 
