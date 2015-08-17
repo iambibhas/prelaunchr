@@ -20,4 +20,3 @@
 .elasticbeanstalk
 
 database.yml
-secret_token.rb
