@@ -1,3 +1,7 @@
+ @viewport{
+    width: device-width;
+}
+
  @media only screen and (max-width: 479px) {
  	#home .hero .large{
  		font-size:25px;
@@ -622,7 +626,3 @@ p{
 }
 }
 
-@viewport{
-    zoom: 1.0;
-    width: device-width;
-}
