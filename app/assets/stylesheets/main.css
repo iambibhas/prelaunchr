@@ -1,0 +1,623 @@
+ @media only screen and (max-width: 479px) {
+ 	#home .hero .large{
+ 		font-size:25px;
+ 		margin:85px 0 0 0px;
+ 		text-align: center;
+ 	}
+ 	#home .hero .small{
+ 		width: 100%;
+ 		margin: 10px 0 0;
+ 		text-align: center;
+ 	}
+ 	#home .form-wrap{
+ 		width: 100%;
+ 	}
+ 	#home .form-wrap .email{
+ 		width: 50%;
+ 		margin-left: 13px;
+    
+    padding: 10px 0 8px 10px;
+   
+ 	}
+ 	#home .hero{
+ 		height: 400px;
+ 		background-size: cover;
+ 	}
+ 	#home .form-wrap .submit{
+ 		width: 43%;
+ 	}
+ 	p{
+ 		width: 100%;
+ 		padding: 0px 5px;
+ 	}
+ 	#refer .page-content {
+   
+    width: 100%;
+   
+   }
+
+   #refer .mammoth {
+    background: url("/assets/refer/van.png") no-repeat scroll 0 0 / 100% auto transparent;
+    float: none;
+    height: 396px;
+    margin-top: 3px;
+    width: 100%;
+    text-shadow:0 3px 3px #333333;
+}
+#refer .mammoth .need {
+   
+    font-size: 35px;
+
+    margin: 194px 0 0;
+    text-align: center;
+   
+    width: 100%;
+}
+#refer .mammoth .need {
+    font-size: 35px;
+    margin: 194px 0 0;
+    text-align: center;
+    width: 100%;
+}
+#refer .share-wrap {
+    float: none;
+    letter-spacing: 0.13em;
+    margin-right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#refer .hero{
+	height: auto;
+}
+#refer .share-wrap .why{
+	font-size: 14px;
+	 margin-top: 6px;
+}
+
+#refer .share-wrap .social-links .sep {
+    background: none repeat scroll 0 0 #BAB9BA;
+    height: 28px;
+    margin: 0 14px;
+    width: 1px;
+}
+#refer .share-wrap .title{
+	font-size: 23px;
+}
+#refer .prizes ul.products{ height: auto;}
+#refer .prizes .products li.title{
+	width: 95%;
+	margin-left: 5%;
+}
+#refer .prizes .products li.title .friends {
+    float: left;
+    
+    margin-top: 0;
+    width: 50%;
+}
+#refer .prizes .products li.title .rewards {
+    float: right;
+    
+    margin-top: 0;
+    width: 50%;
+}
+#refer .prizes .products li.product {
+    
+    float: left;
+     width: 100%;
+    
+    margin-top: 25px;
+   
+   
+}
+#refer .prizes .products li.product .circle{
+	margin: 5px auto 0 57px;
+	float: left;
+}
+#refer  .brandon  p{
+	float: left;
+    width: 71%;
+}
+#refer .prizes .products li.product .sep{
+	margin: 0px;
+}
+
+ }
+ @media only screen and (min-width: 768px)and (max-width:995px) {
+ 	#home .hero{
+ 		height: 336px;
+ 		background-size: 100%;
+ 	}
+ 	#home .hero .large {
+ 		font-size: 35px;
+ 		margin: 85px 0 0 63px;
+ 	}
+ 	#home .hero .small{
+ 		margin: 10px 0 0 29px;
+ 	}
+ 	#home .form-wrap .email{
+ 		padding: 10px 0 8px 10px;
+ 	}
+#refer .header .logo {
+    
+    text-align: center;
+    width: 100%;
+}
+#refer .hero{
+	height: auto;
+}
+#refer .page-content{
+	width: 100%;
+}
+#refer .mammoth {
+    background: url("/assets/refer/van.png") no-repeat scroll 0 0 / 100% auto transparent;
+    float: left;
+    
+
+    width: 50%;
+}
+
+#refer .share-wrap {
+    float: right;
+    margin-right: 0px;
+   
+    width: 50%;
+}
+#refer .prizes .products li.title {
+   
+    float: left;
+    font-size: 14px;
+    
+    margin-left: 31px;
+    margin-right: 32px;
+    
+    width: 165px;
+}
+
+#refer .prizes .products li.product {
+    color: #074E6F;
+    float: left;
+    height: 100%;
+    margin-right: 12px;
+    position: relative;
+    width: 125px;
+}
+#refer .mammoth .need {
+    
+    font-size: 30px;
+    line-height: 48px;
+    margin: 88px 0 0;
+    text-align: center;
+    width: 100%;
+}
+#refer .share-wrap .title{
+	font-size: 26px;
+}
+
+
+ }
+
+
+ @media only screen and (min-width : 580px) and (max-width : 667px) and (orientation:landscape){
+
+ 	#refer .header .logo {
+    
+    width: 100%;
+    text-align: center;
+}
+ 	#home .hero {
+    background: url("/assets/home/hero.jpg") no-repeat scroll center center / 100% auto transparent;
+    height: 273px;
+    
+}
+#home .hero .large {
+    
+    font-size: 35px;
+    
+    margin: 54px 0 0;
+    
+    text-align: center;
+   
+    width: 100%;
+    
+}
+#home .hero .small {
+  
+    margin: 10px 0 0;
+    
+    text-align: center;
+     width: 100%;
+ 
+}
+#home .form-wrap .email{
+	padding: 10px 0 8px 10px;
+}
+p{
+ 		width: 100%;
+ 		padding: 0px 5px;
+ 	}
+
+#refer .page-content {
+   
+    width: 100%;
+   
+   }
+
+   #refer .mammoth {
+    background: url("/assets/refer/van.png") no-repeat scroll 0 0 / 100% auto transparent;
+    float: none;
+    height: 411px;
+    margin-top: 3px;
+    width: 100%;
+}
+
+#refer .mammoth .need {
+    font-size: 34px;
+    margin: 159px 0 0;
+    text-align: center;
+    width: 100%;
+}
+#refer .share-wrap {
+    float: none;
+    letter-spacing: 0.13em;
+    margin-right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#refer .hero{
+	height: auto;
+}
+#refer .share-wrap .why{
+	font-size: 14px;
+	 margin-top: 6px;
+}
+
+#refer .share-wrap .social-links .sep {
+    background: none repeat scroll 0 0 #BAB9BA;
+    height: 28px;
+    margin: 0 14px;
+    width: 1px;
+}
+#refer .share-wrap .title{
+	font-size: 23px;
+}
+#refer .prizes ul.products{ height: auto;}
+#refer .prizes .products li.title {
+    margin-left: 3%;
+    margin-top: 17px;
+    width: 97%;
+}
+#refer .prizes .products li.title .friends {
+    float: left;
+    
+    margin-top: 0;
+    width: 50%;
+}
+#refer .prizes .products li.title .rewards {
+    float: right;
+    
+    margin-top: 0;
+    width: 50%;
+}
+#refer .prizes .products li.product {
+    
+    float: left;
+     width: 100%;
+    
+    margin-top: 25px;
+   
+   
+}
+#refer .prizes .products li.product .circle{
+	margin: 5px auto 0 57px;
+	float: left;
+}
+#refer .brandon p {
+    float: right;
+    width: 57%;
+}
+#refer .prizes .products li.product .sep{
+	margin: 0px;
+}
+
+ }
+
+ @media only screen and (min-width : 320px) and (max-width : 480px) and (orientation : landscape) {
+
+#home .hero {
+    background: url("/assets/home/hero.jpg") no-repeat scroll center center / 100% auto transparent;
+    height: 203px;
+    
+}
+#refer .header .logo{
+	width: 100%;
+	text-align: center;
+}
+#home .hero .large {
+    
+    font-size: 32px;
+    
+    margin: 54px 0 0;
+    
+    text-align: center;
+   
+    width: 100%;
+    
+}
+#home .hero .small {
+  
+    margin: 10px 0 0;
+    
+    text-align: center;
+ 
+}
+#home .form-wrap .email{
+	padding: 10px 0 8px 10px;
+}
+#refer .page-content {
+   
+    width: 100%;
+   
+   }
+
+   #refer .mammoth {
+    background: url("/assets/refer/van.png") no-repeat scroll 0 0 / 100% auto transparent;
+    float: none;
+    height: 312px;
+    margin-top: 3px;
+    width: 100%;
+}
+
+#refer .mammoth .need {
+    font-size: 30px;
+    margin: 108px 0 0;
+    text-align: center;
+    width: 100%;
+}
+#refer .share-wrap {
+    float: none;
+    letter-spacing: 0.13em;
+    margin-right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#refer .hero{
+	height: auto;
+}
+#refer .share-wrap .why{
+	font-size: 14px;
+	 margin-top: 6px;
+}
+
+#refer .share-wrap .social-links .sep {
+    background: none repeat scroll 0 0 #BAB9BA;
+    height: 28px;
+    margin: 0 14px;
+    width: 1px;
+}
+#refer .share-wrap .title{
+	font-size: 23px;
+}
+#refer .prizes ul.products{ height: auto;}
+#refer .prizes .products li.title {
+    margin-left: 3%;
+    margin-top: 17px;
+    width: 97%;
+}
+#refer .prizes .products li.title .friends {
+    float: left;
+    
+    margin-top: 0;
+    width: 50%;
+}
+#refer .prizes .products li.title .rewards {
+    float: right;
+    
+    margin-top: 0;
+    width: 50%;
+}
+#refer .prizes .products li.product {
+    
+    float: left;
+     width: 100%;
+    
+    margin-top: 25px;
+   
+   
+}
+#refer .prizes .products li.product .circle{
+	margin: 5px auto 0 57px;
+	float: left;
+}
+#refer .brandon p {
+    float: right;
+    width: 57%;
+}
+#refer .prizes .products li.product .sep{
+	margin: 0px;
+}
+
+ }
+
+@media only screen and (min-width : 600px) and (max-width:  600px) {
+	#refer .header .logo{
+		width: 100%;
+		text-align: center;
+	}
+
+	#home .hero {
+    background: url("/assets/home/hero.jpg") no-repeat scroll center center / 100% auto transparent;
+    height: 260px;
+    
+}
+#home .hero .large {
+    
+    font-size: 32px;
+    
+    margin: 54px 0 0;
+    
+    text-align: center;
+   
+    width: 100%;
+    
+}
+#home .hero .small {
+  
+    margin: 10px 0 0;
+    
+    text-align: center;
+    width: 100%;
+ 
+}
+#home .form-wrap .email{
+	padding: 10px 0 8px 10px;
+}
+
+p{
+ 		width: 100%;
+ 		padding: 0px 5px;
+ 	}
+ 
+#refer .page-content {
+   
+    width: 100%;
+   
+   }
+
+   #refer .mammoth {
+    background: url("/assets/refer/van.png") no-repeat scroll 0 0 / 100% auto transparent;
+    float: none;
+    height: 411px;
+    margin-top: 3px;
+    width: 100%;
+}
+
+#refer .mammoth .need {
+    font-size: 34px;
+    margin: 159px 0 0;
+    text-align: center;
+    width: 100%;
+}
+#refer .share-wrap {
+    float: none;
+    letter-spacing: 0.13em;
+    margin-right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#refer .hero{
+	height: auto;
+}
+#refer .share-wrap .why{
+	font-size: 14px;
+	 margin-top: 6px;
+}
+
+#refer .share-wrap .social-links .sep {
+    background: none repeat scroll 0 0 #BAB9BA;
+    height: 28px;
+    margin: 0 14px;
+    width: 1px;
+}
+#refer .share-wrap .title{
+	font-size: 23px;
+}
+#refer .prizes ul.products{ height: auto;}
+#refer .prizes .products li.title {
+    margin-left: 3%;
+    margin-top: 17px;
+    width: 97%;
+}
+#refer .prizes .products li.title .friends {
+    float: left;
+    
+    margin-top: 0;
+    width: 50%;
+}
+#refer .prizes .products li.title .rewards {
+    float: right;
+    
+    margin-top: 0;
+    width: 50%;
+}
+#refer .prizes .products li.product {
+    
+    float: left;
+     width: 100%;
+    
+    margin-top: 25px;
+   
+   
+}
+#refer .prizes .products li.product .circle{
+	margin: 5px auto 0 57px;
+	float: left;
+}
+#refer .brandon p {
+    float: right;
+    width: 57%;
+}
+#refer .prizes .products li.product .sep{
+	margin: 0px;
+}
+
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+
+#refer .header .logo {
+    
+    text-align: center;
+    width: 100%;
+}
+#refer .hero{
+	height: auto;
+}
+#refer .page-content{
+	width: 100%;
+}
+#refer .mammoth {
+    background: url("/assets/refer/van.png") no-repeat scroll 0 0 / 100% auto transparent;
+    float: left;
+    
+
+    width: 50%;
+}
+
+#refer .share-wrap {
+    float: right;
+    margin-right: 0px;
+   
+    width: 50%;
+}
+#refer .prizes .products li.title {
+    float: left;
+    font-size: 14px;
+    margin-left: 63px;
+    margin-right: 114px;
+    width: 165px;
+}
+
+#refer .prizes .products li.product {
+    color: #074E6F;
+    float: left;
+    height: 100%;
+    margin-right: 40px;
+    position: relative;
+    width: 125px;
+}
+#refer .mammoth .need {
+    
+    font-size: 30px;
+    line-height: 48px;
+    margin: 127px 0 0;
+    text-align: center;
+    width: 100%;
+}
+#refer .share-wrap .title{
+	font-size: 26px;
+}
+}

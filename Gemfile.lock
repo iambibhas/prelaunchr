@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/anjlab/bootstrap-rails.git
+  revision: 54b165183fdccc4feb451416d1a46ecae496d6be
+  specs:
+    anjlab-bootstrap-rails (3.0.3.0)
+      railties (>= 3.0)
+      sass (>= 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -100,8 +108,8 @@ GEM
     method_source (0.8.2)
     mime-types (1.21)
     multi_json (1.6.1)
+    mysql2 (0.3.19)
     orm_adapter (0.4.0)
-    pg (0.14.1)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -172,9 +180,10 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+  anjlab-bootstrap-rails!
   coffee-rails (~> 3.2.1)
   delayed_job_active_record
-  pg
+  mysql2
   pry
   rack-canonical-host
   rails (= 3.2.11)
