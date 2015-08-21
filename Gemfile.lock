@@ -110,6 +110,7 @@ GEM
     multi_json (1.6.1)
     mysql2 (0.3.19)
     orm_adapter (0.4.0)
+    pg (0.18.1)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -184,6 +185,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   delayed_job_active_record
   mysql2
+  pg
   pry
   rack-canonical-host
   rails (= 3.2.11)

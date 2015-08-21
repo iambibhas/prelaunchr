@@ -5,7 +5,11 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+group :production do
+	gem 'pg'
+end
+
+gem 'mysql2'
 
 gem 'activeadmin'
 
@@ -32,6 +36,8 @@ gem 'unicorn'
 
 gem 'rack-canonical-host'
 
+# User Bootstrap
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails', :github => 'anjlab/bootstrap-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
