@@ -8,18 +8,12 @@
         <title>Garagely &ndash; Tell Friends, Get mechanics for less</title>
         <link rel="icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
         <link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
-        <meta name="viewport" content="initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:title" content="Garagely is coming!"/>
         <meta property="og:description" content="Skip the repair shops our mechanics makes house calls."/>
         <meta property="og:image" content="<%= asset_path("refer/share.png") %>"/>
         <meta property="og:url" content="<%= root_url %>"/>
-        <% if @is_mobile %>
-            <% if @bodyId == 'home' %>
-                <meta name="viewport" content="width=1600" />
-            <% else %>
-                <meta name="viewport" content="width=1120" />
-            <% end %>
-        <% end %>
+      
         <%= stylesheet_link_tag "application.css", :media => "all" %>
 
         <%#= stylesheet_link_tag "core.css", :media => "all" %>

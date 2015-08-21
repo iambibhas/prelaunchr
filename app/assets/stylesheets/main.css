@@ -621,8 +621,3 @@ p{
 	font-size: 26px;
 }
 }
-
-@viewport{
-    zoom: 1.0;
-    width: device-width;
-}
