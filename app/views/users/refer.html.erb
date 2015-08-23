@@ -11,10 +11,10 @@
         </div>
         <div class="share-wrap">
             <p class="why brandon">Don't leave your friends behind</p>
-            <p class="title brandon">INVITE FRIENDS &<br>Get Early Discount</p>
-            <p class="subtitle brandon">Share your unique link via email, Facebook or Twitter and earn early discount for each friend who signs up.</p>
+            <p class="title brandon">INVITE FRIENDS &<br>Earn Cash</p>
+            <p class="subtitle brandon">Share your unique link via email, Facebook or Twitter and earn Garagely cash credits for each friend who signs up.</p>
             <input id="copy-link" class="copy-link brandon" onclick="document.getElementById('copy-link').select();" value="<%= root_url %>?ref=<%= @user.referral_code %>" />
-            <% twitter_message = "Excited for @garagelyin to launch. I’m getting a discount for my car service." %>
+            <% twitter_message = "Excited for @Garagely launch! Get discounted prices on car repairs!" %>
             <div class="social-links">
                 <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Garagely" class="fb" target="_blank"></a>
                 <div class="sep"></div>
