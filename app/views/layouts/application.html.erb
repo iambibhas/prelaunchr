@@ -20,13 +20,60 @@
                 <meta name="viewport" content="width=1120" />
             <%# end %>
         <%# end %> -->
-        <%= stylesheet_link_tag "core.css", :media => "all" %>
-     
-        
+        <%= stylesheet_link_tag "application.css", :media => "all" %>
+
+        <%#= stylesheet_link_tag "core.css", :media => "all" %>
         <%= csrf_meta_tags %>
 </head>
 <body id="<%= @bodyId %>">
 
+<style>
+#refer .prizes .products li.product.selected .circle{
+    background: #995F5E !important;
+    border-color: #995F5E !important;
+    color: #FFF !important;
+}
+
+
+#refer .prizes .products li.product.selected p{
+    color: #995F5E !important;
+}
+
+#refer .prizes .products li.product:hover .circle{
+    color: #FFF;
+    background: #074E6F;
+    border-color: #074E6F;
+}
+
+#refer .prizes .products li.product .tooltip{
+    height: 254px;
+    width: 260px;
+    border: 4px solid #074E6F;
+    position: absolute;
+    top: -285px;
+    left: -75px;
+    display: none;
+    background: #FFF;
+}
+
+#refer .prizes .products li.product .tooltip img{
+    margin: 0 auto;
+    display: block;
+}
+
+#refer .prizes .products li.product:hover .tooltip{
+    display: block;
+}
+
+#refer .prizes p.place{
+    text-align: center;
+    font-size: 16px;
+    color: #074E6F;
+    width: 100%;
+    font-weight: 500;
+    margin-top: 30px;
+}
+</style>
 <%= yield %>
 
 
