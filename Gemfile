@@ -12,6 +12,7 @@ end
 gem 'mysql2'
 
 gem 'activeadmin'
+gem 'social-share-button'
 
 
 # Gems used only for assets and not required
@@ -37,8 +38,8 @@ gem 'unicorn'
 gem 'rack-canonical-host'
 
 # User Bootstrap
-# gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails', :github => 'anjlab/bootstrap-rails'
-gem 'anjlab-bootstrap-rails', '>= 3.0.0.0', :require => 'bootstrap-rails'
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails', :github => 'anjlab/bootstrap-rails'
+# gem 'anjlab-bootstrap-rails', '>= 3.0.0.0', :require => 'bootstrap-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
