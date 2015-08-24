@@ -12,7 +12,7 @@ end
 gem 'mysql2'
 
 gem 'activeadmin'
-gem 'social-share-button'
+# gem 'social-share-button'
 
 
 # Gems used only for assets and not required
