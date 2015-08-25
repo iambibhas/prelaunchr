@@ -121,6 +121,18 @@
 #refer .prizes .products li.product .sep{
 	margin: 0px;
 }
+#refer .prizes .products li.product .tooltip1 {
+    height: 100px;
+    left: 20px;
+    top: -110px;
+    width: 100px;
+}
+#refer .prizes .products li.product .tooltip1 img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
 
  }
  @media only screen and (min-width: 768px)and (max-width:995px) {
@@ -199,7 +211,18 @@
 
 
  @media only screen and (min-width : 580px) and (max-width : 667px) and (orientation:landscape){
-
+#refer .prizes .products li.product .tooltip1 {
+    height: 100px;
+    left: 20px;
+    top: -110px;
+    width: 100px;
+}
+#refer .prizes .products li.product .tooltip1 img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
  	#refer .header .logo {
     
     width: 100%;
@@ -437,6 +460,18 @@ p{
 }
 #refer .prizes .products li.product .sep{
 	margin: 0px;
+}
+#refer .prizes .products li.product .tooltip1 {
+    height: 100px;
+    left: 20px;
+    top: -110px;
+    width: 100px;
+}
+#refer .prizes .products li.product .tooltip1 img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
  }

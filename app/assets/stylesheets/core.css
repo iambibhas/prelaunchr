@@ -581,7 +581,7 @@ html.home{
 	border-color: #074E6F;
 }
 
-#refer .prizes .products li.product .tooltip{
+#refer .prizes .products li.product .tooltip1{
 	height: 254px;
 	width: 260px;
 	border: 4px solid #074E6F;
@@ -592,12 +592,12 @@ html.home{
 	background: #FFF;
 }
 
-#refer .prizes .products li.product .tooltip img{
+#refer .prizes .products li.product .tooltip1 img{
 	margin: 0 auto;
 	display: block;
 }
 
-#refer .prizes .products li.product:hover .tooltip{
+#refer .prizes .products li.product:hover .tooltip1{
 	display: block;
 }
 
