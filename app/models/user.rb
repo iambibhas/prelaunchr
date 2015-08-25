@@ -13,25 +13,25 @@ class User < ActiveRecord::Base
     REFERRAL_STEPS = [
         {
             'count' => 5,
-            "html" => "5%<br>Discount",
+            "html" => Rs. "50",
             "class" => "two",
             "image" =>  ActionController::Base.helpers.asset_path("refer/five@2x.png")
         },
         {
             'count' => 10,
-            "html" => "10%<br>Discount",
+            "html" => "Rs. 100",
             "class" => "three",
             "image" => ActionController::Base.helpers.asset_path("refer/ten@2x.png")
         },
         {
             'count' => 15,
-            "html" => "15%<br>Discount",
+            "html" => "Rs. 150",
             "class" => "four",
             "image" => ActionController::Base.helpers.asset_path("refer/fifteen@2x.png")
         },
         {
             'count' => 25,
-            "html" => "25%<br>Discount",
+            "html" => "Rs. 200",
             "class" => "four",
             "image" => ActionController::Base.helpers.asset_path("refer/twentyfive@2x.png")
         }

@@ -11,21 +11,24 @@
         </div>
         <div class="share-wrap">
             <p class="why brandon">Don't leave your friends behind</p>
-            <p class="title brandon">Invite &<br>Earn Cash</p>
-            <p class="subtitle brandon">Share Your Unique Link Via Email,Facebook or Twitter&Earn Garagely Cash Credits For Each Friend Who Signs Up.</p>
+
+            <p class="title brandon">INVITE FRIENDS &<br>Earn Cash</p>
+            <p class="subtitle brandon">Share your unique link via email, Facebook or Twitter and earn Garagely cash credits for each friend who signs up.</p>
+
             <input id="copy-link" class="copy-link brandon" onclick="document.getElementById('copy-link').select();" value="<%= root_url %>?ref=<%= @user.referral_code %>" />
-            <% twitter_message = "Excited for @garagelyin to launch. I’m getting a discount for my car service." %>
+            <% twitter_message = "Excited for @Garagelyin launch! Get discounted prices on car repairs!" %>
+            <% share_message = "Excited for Garagely launch! Get discounted prices on car repairs!" %>
             <div class="social-links">
                 
                 <a href='http://www.facebook.com/sharer/sharer.php?s=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&p[title]=Garagely&p[summary]=Garagely.&p[url]=http://www.garagely.in/&p[images][0]=http://www.garagely.in/assets/refer/share.png' target="_blank" class="fb"></a>
                 <div class="sep"></div>
                 <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" class="twit" target="_blank"></a>
                 <div class="sep"></div>
-                <a href="http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Garagely is opening!&body=<%= CGI::escape(twitter_message) %> <%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>" class="gmail" target="_blank"></a>
+                <a href="http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Garagely is opening!&body=<%= CGI::escape(share_message) %> <%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>" class="gmail" target="_blank"></a>
                 <div class="sep"></div>
-                <a href="http://compose.mail.yahoo.com/?to=&subject=Garagely is opening!&body=<%= CGI::escape(twitter_message) %> <%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>" class="yahoo" target="_blank"></a>
+                <a href="http://compose.mail.yahoo.com/?to=&subject=Garagely is opening!&body=<%= CGI::escape(share_message) %> <%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>" class="yahoo" target="_blank"></a>
                 <div class="sep"></div>
-                <a href="http://mail.live.com/mail/EditMessageLight.aspx?n=&to=&subject=Garagely is opening!&body=<%= CGI::escape(twitter_message) %> <%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>" class="hotmail" target="_blank"></a>
+                <a href="http://mail.live.com/mail/EditMessageLight.aspx?n=&to=&subject=Garagely is opening!&body=<%= CGI::escape(share_message) %> <%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>" class="hotmail" target="_blank"></a>
             </div>
         </div>
     </div>
@@ -51,7 +54,7 @@
     <div class="page-content">
         <p class="callout brandon">Here's How It Works:</p>
         <ul class="products clearfix">
-            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Garagely's Discount</p></li>
+            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Cash Credit</p></li>
             <% stops.each do |stop| %>
                 <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
                     <div class="circle"><%= stop["count"] %></div>
@@ -74,7 +77,7 @@
             words = ''
             if referrals_count == 1
                 words = 'friend has'
-            elsif
+            else
                 words = 'friends have'
             end
 
